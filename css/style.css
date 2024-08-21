@@ -1,0 +1,59 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#content {
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 800px;
+  background-color: rgb(208, 208, 208);
+}
+#content section {
+  width: 1110px;
+  height: 400px;
+  background-color: white;
+}
+#content #section1 {
+  height: 280px;
+}
+#content #section2 {
+  height: 400px;
+}
+
+.divisão_título {
+  height: 136px;
+}
+
+.divisão_indicadores {
+  width: 100%;
+  background-color: #b4b4b4;
+  height: 200px;
+}
+
+.card {
+  height: 216px;
+  width: 255px;
+  background-color: gray;
+}
+.card .card_borda {
+  height: 5px;
+  background-color: white;
+}
+.card .card_conteúdo {
+  height: 211px;
+  background-color: black;
+}
+
+#card_facebook .card_borda {
+  background-color: hsl(208, 92%, 53%);
+}/*# sourceMappingURL=style.css.map */
